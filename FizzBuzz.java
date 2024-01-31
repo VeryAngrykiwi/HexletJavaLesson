@@ -1,5 +1,5 @@
-private class FizzBuzz {
-  private static void fizzBuzz(int begin, int end) {
+public class FizzBuzz {
+  public static void fizzBuzz(int begin, int end) {
     for (int i = begin; i <= end; i++) {
       if (i % 3 == 0 && i % 5 == 0) {
         System.out.print("FizzBuzz " + "\n");
@@ -11,9 +11,5 @@ private class FizzBuzz {
         System.out.print(i + " " + "\n");
       }
     }
-  }
-
-  private static void main(String[] args) {
-    FizzBuzz.fizzBuzz(11, 20);
   }
 }
