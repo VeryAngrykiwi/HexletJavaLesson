@@ -4,5 +4,6 @@ public class Main {
     System.out.println("Hey, Kiwi proggrammer Java, Wow! i'ts amazing!");
   //  FizzBuzz.fizzBuzz(15,20);
   //  System.out.println(isBalanced.isBalanced(""));
+    System.out.println(Fibanachi.fib(10));
   }
 }
